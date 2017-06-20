@@ -1,0 +1,23 @@
+<div class="form-group">
+    <label>Name</label>
+    <input type="text" class="form-control" name="employeeName" [(ngModel)]="employee.name" />
+</div>
+<div class="form-group">
+    <label>Information</label>
+    <input type="text" class="form-control" name="employeeInformation" [(ngModel)]="employee.snippet" />
+</div>
+<div class="form-group">
+    <label>Age</label>
+    <input type="text" class="form-control" name="employeeAge" [(ngModel)]="employee.age" />
+</div>
+<div class="form-group">
+    <label>Education</label>
+    <input type="text" class="form-control" name="employeeEducation" [(ngModel)]="employee.education" />
+</div>
+<div class="form-group">
+    <label>Image URL</label>
+    <input type="text" class="form-control" name="employeeImgUrl" [(ngModel)]="employee.imgUrl" />
+</div>
+<div>
+    <button class="btn btn-default" (click)="postEmployee()" >Save</button>
+</div>

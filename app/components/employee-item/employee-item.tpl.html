@@ -1,0 +1,15 @@
+<div class="thumbnail">
+  <a class="thumbnail-image" [routerLink]="['employee', employee.id]">
+    <img class="img-responsive" [src]="employee.imgUrl" alt="">
+  </a>
+  <div class="caption" style="height: 180px">
+    <a [routerLink]="['employee', employee.id]">
+      <h3>{{ employee.name }}</h3>
+    </a>
+    <p>{{ employee.snippet }}</p>
+  </div>
+  <div *ngIf="isModerator()">
+    <button class="btn btn-default" (click)="editEmployee()">Edit</button>
+    <button class="btn btn-default" (click)="deleteEmployee()">Delete</button>
+  </div>
+</div>

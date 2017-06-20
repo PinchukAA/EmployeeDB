@@ -1,0 +1,47 @@
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+}
+
+a[ng-click]{
+  cursor: pointer;
+}
+
+.navbar {
+  padding: 5px 0;
+}
+
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.6em;
+}
+
+.thumbnail-image {
+  display: inline-block;
+  padding: 15px;
+  max-width: 100%;
+}
+
+.form-group {
+  margin-top: 40px;
+  border:1px solid #aaa;
+  box-shadow: 0px 0px 3px #ccc, 0 10px 15px #eee inset;
+  border-radius:2px;
+}
